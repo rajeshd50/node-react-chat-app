@@ -1,0 +1,12 @@
+@media (max-width: 767px) {
+  .header-text-logo {
+    display: none;
+  }
+  .btn-logout {
+    min-width: 130px;
+    font-size: 18px;
+  }
+  .chat-main-area {
+    margin: 0;
+  }
+}
