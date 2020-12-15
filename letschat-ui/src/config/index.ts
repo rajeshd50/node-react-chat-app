@@ -6,8 +6,8 @@ let apiBaseUrl = 'http://localhost:4000/api/'
 let socketBaseUrl = 'ws://localhost:4000/'
 
 if (APP_STAGE == 'prod') {
-  apiBaseUrl = 'http://localhost:4000/api/'
-  socketBaseUrl = 'ws://localhost:4000/'
+  apiBaseUrl = 'https://letschatapi.appswithfun.com/api/'
+  socketBaseUrl = 'ws://letschatapi.appswithfun.com/'
 }
 
 export const SOCKET_BASE_URL = socketBaseUrl
