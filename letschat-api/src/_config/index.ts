@@ -16,7 +16,8 @@ export const bcryptConstants = {
 /**
  * server url
  */
-export const serverUrl = 'http://localhost:4000/'
+// export const serverUrl = 'http://localhost:4000/'
+export const serverUrl = 'https://letschatapi.appswithfun.com/'
 /**
  * file upload directory
  */

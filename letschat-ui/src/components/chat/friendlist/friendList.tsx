@@ -154,7 +154,7 @@ function FriendList({
                 <UserLogo name={frnd.friend_details?.name} imageLink={frnd.friend_details?.imageFullPath} />
                 <div className="friend-list-details">
                 <span className="friend-list-name">{frnd.friend_details?.name}</span>
-                <span className="friend-list-date">{frnd.last_message_time ? moment(frnd.last_message_time).format('ddd, D/M YY, h:m A') : 'N/A'}</span>
+                <span className="friend-list-date">{frnd.last_message_time ? moment(frnd.last_message_time).format('ddd, D/M YY, hh:mm A') : 'N/A'}</span>
                 </div>
               </div>
             }) : !searching && (!searchResult || !searchResult.length) ? <div className="friend-list-empty mt-3">

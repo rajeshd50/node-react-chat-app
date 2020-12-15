@@ -1,0 +1,41 @@
+.Toastify__toast--warning {
+  background: #f1c40f;
+  background: #fe8c00;
+  background: -webkit-linear-gradient(to right, #f83600, #fe8c00);
+  background: linear-gradient(to right, #f83600, #fe8c00);
+}
+.Toastify__toast--error {
+  background: #e74c3c;
+  background: #F00000;
+  background: -webkit-linear-gradient(to right, #DC281E, #F00000);
+  background: linear-gradient(to right, #DC281E, #F00000);
+}
+.Toastify__toast--success {
+  background: #07bc0c;
+  background: #43cea2;
+  background: -webkit-linear-gradient(to right, #185a9d, #43cea2);
+  background: linear-gradient(to right, #185a9d, #43cea2);
+}
+
+.Toastify__toast.Toastify__toast--default .Toastify__toast-body {
+  margin: 0;
+}
+.Toastify__toast--default {
+  background: #fff;
+  color: #aaa;
+  background: #396afc;
+  background: -webkit-linear-gradient(to right, #2948ff, #396afc);
+  background: linear-gradient(to right, #2948ff, #396afc);
+  color: #fff;
+}
+.Toastify__toast.Toastify__toast--default .Toastify__toast-body > .custom-toast-body {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+.Toastify__toast.Toastify__toast--default .Toastify__toast-body > .custom-toast-body > span:first-child {
+  font-weight: 600;
+}
+.Toastify__toast.Toastify__toast--default .Toastify__toast-body > .custom-toast-body > span:last-child {
+  font-size: 14px;
+}

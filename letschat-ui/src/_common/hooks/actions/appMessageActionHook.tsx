@@ -62,7 +62,7 @@ export function useAppMessageAction() {
    * set current user for chat
    * @param data user
    */
-  const setSelectedUser = (data: FriendOrSearchUser) => {
+  const setSelectedUser = (data: FriendOrSearchUser | any) => {
     dispatch({
       type: ACTIONS.MESSAGE.SET_SELECTED_USER,
       payload: data,

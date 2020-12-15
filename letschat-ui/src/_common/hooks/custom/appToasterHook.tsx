@@ -13,5 +13,8 @@ export function useToaster() {
   const warning = (message: string) => {
     toast.warning(message)
   }
-  return { error, show, success, warning }
+  const showCustom = (component: any) => {
+    toast(component);
+  }
+  return { error, show, success, warning, showCustom }
 }

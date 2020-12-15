@@ -8,7 +8,7 @@ exports.jwtConstants = {
 exports.bcryptConstants = {
     salt: 4,
 };
-exports.serverUrl = 'http://localhost:4000/';
+exports.serverUrl = 'https://letschatapi.appswithfun.com/';
 exports.fileUploadDestination = 'uploads';
 exports.SOCKET_EVENTS = {
     MESSAGE: 'SOCKET_MESSAGE',

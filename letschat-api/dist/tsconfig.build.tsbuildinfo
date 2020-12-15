@@ -1997,8 +1997,8 @@
         "affectsGlobalScope": false
       },
       "../src/_config/index.ts": {
-        "version": "92c17b547f38766e5cc825891d68b99b7d8224a48fbad4df9bdc8b87abd795eb",
-        "signature": "2a2a4c78b95f8c02f0ae9d2853bd8a36500661399a1e390a9a08d092bff79aea",
+        "version": "48b97f8ce6482b42541b9abc6bdf646078c1b0518c8a5d440bb0fdf129710209",
+        "signature": "a932ede634a03fb6ae1349418d5eadfbaff5a87af11a639d751b58c287cfa339",
         "affectsGlobalScope": false
       },
       "../src/database/model/friends.entity.ts": {

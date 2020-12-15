@@ -8,6 +8,8 @@ import { store, persistor } from './store'
 import 'react-toastify/dist/ReactToastify.css';
 import 'react-perfect-scrollbar/dist/css/styles.css';
 
+import './index.css';
+
 import { ToastContainer } from 'react-toastify'
 
 import { APP_STAGE, SAGA_ACTIONS, STORAGE } from './config'
@@ -22,7 +24,7 @@ ReactDOM.render(
           <App />
           <ToastContainer
             position="top-right"
-            autoClose={5000}
+            autoClose={500000}
             hideProgressBar={false}
             newestOnTop={true}
             closeOnClick
@@ -30,6 +32,7 @@ ReactDOM.render(
             pauseOnFocusLoss
             draggable
             pauseOnHover
+            limit={3}
           />
         </React.Fragment>
       </PersistGate>
