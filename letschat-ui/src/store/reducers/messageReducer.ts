@@ -50,8 +50,12 @@ const messageReducer = (state = initialState, action: ActionExtended) => {
       };
     case ACTIONS.MESSAGE.APPEND_NEW:
       let newArr = state.list
-      let find = state.list.findIndex(x => x.id == action.payload.id)
-      if (find < 0) {
+      if (action.payload.id) {
+        let find = state.list.findIndex(x => x.id == action.payload.id)
+        if (find < 0) {
+          newArr.push(action.payload)
+        }
+      } else {
         newArr.push(action.payload)
       }
       return {
