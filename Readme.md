@@ -2,6 +2,8 @@
 
 Server is written in typescript using [nestjs](https://nestjs.com/) framework, client side uses react (latest using hooks) also in typescript. Client side is PWA ready, scripts are used to create build of service worker with single command.
 
+[Demo](http://letschatui.appswithfun.com/)
+
 ## Folder structure
 
 letschat-api - contains node app, which use sqlite (created while running the server)
